@@ -1,0 +1,11 @@
+1. Select the VPC on your services page
+2. Click on launch VPC wizard
+3.  Click on create VPC. 
+4. Enter the VPC name as private VPC, IPV4 CIDR block as 192.168.0.0/16
+5. Then VPC will be successfully created
+6. Open the subnet option
+7. Then click on create a subnet.  Name the subnet as per your convenience, with changes in CIDR block num as 192.168.0.0/24
+8. Then go to the routing table, create 4 route tables and attach the respective subnet table to the routing table
+9. Successfully connected four subnets to the 4 route table with a VPC.
+
+

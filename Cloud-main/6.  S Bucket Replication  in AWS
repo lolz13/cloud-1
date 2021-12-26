@@ -1,0 +1,28 @@
+Choose the S3 bucket in the services
+Click create bucket
+Enter bucket name
+Click on create a bucket assume it is a source
+Uncheck block all public access
+Check-in the I acknowledge that the current settings.
+Enable the bucket versioning
+Then click create a bucket
+After the creation of the bucket
+Click the bucket name, then click on upload and click on add files and choose any file to upload
+Check the uploaded file and click upload
+Then create another bucket assume it is a destination
+Create a bucket only, do need to upload any files.
+Click on buckets
+Click the bucket name(source bucket)
+(source bucket)- Go to properties, at last, choose edit static hosting- enable that.
+Go to management listed above 
+Under replication, rules click create replication rule
+Enter the rule name, under destination click on browse s3 and choose the source bucket that you have created
+Under the IAM role choose a new role
+Then click on save.
+If you go destination bucket, here you can see the file that you have uploaded in the source destination. 
+
+
+
+
+
+

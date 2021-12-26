@@ -1,0 +1,39 @@
+Login into the AWS console
+Choose the EC2 instances
+Choose an Amazon machine image as Amazon Linux 2 AMI( 1st in the list) 
+Leave as it is and go to the next steps
+In add tags, add the key-value names click on to configure settings
+Change the security group name and description to the value name that you have entered before the step. Change source to MyIP and description. Then click on Review and launch. 
+then click on launch instances
+If you already have an existing key-value pair choose that, or else you can create a new key pair. Then click launch instances
+Then the instances started running
+While launching download the .pem file
+In Ubuntu:
+Ctrl +alt+t  
+
+
+sudo apt install putty-tools
+ 
+cd Downloads
+sudo puttygen key.pem -o key.ppk -O private
+sudo puttygen key.pem -o key.ppk -O public
+sudo  chmod   777 key.ppk
+
+
+Putty
+Then open the putty and enter the IP address of created instances.
+In the left menu click SSH, choose Auth, browse the saved file and click open.
+Then a terminal is opened  ec2-user enter this command.
+
+Choose the S3 bucket in the services
+Click create bucket
+Enter bucket name
+Click on create a bucket assume it is a source
+Enter the bucket name
+Uncheck block all public access
+Check-in the I acknowledge that the current settings.
+Enable the bucket versioning
+Then click create a bucket
+
+
+

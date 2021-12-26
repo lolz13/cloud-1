@@ -1,0 +1,63 @@
+
+1. Login into AWS console
+
+2. Choose the EC2 instances from the services
+
+3. Click on launch instances to create a instances
+
+4. Then you choose the  suitable remote desktop fork these here I have chosen the Microsoft Windows Server 2012   R2 base  select that
+
+5. Leave as it is and click  configure
+
+6. No need to change anything then click on add storage 
+
+7. The  click add tags
+
+8. Then configure settings
+
+9. leave as it is click review and launch
+
+10. Then click on launch instances
+
+11. Create the new key pair and download the pem file
+ 
+12.  Then click on launch instances
+
+13. Instances is launched successfully
+
+14. You need to wait for some time to start running the instances state it takes some time
+
+15. Instance state turned into  running
+16. Choose volume in the left menu
+17. Create volume - choose the availability zone correctly for the instance running
+18. After creating, right-click and attach the volume to the currently running instances.
+
+
+17. Go to instances and  click on instances and give connect in the top menu
+
+18 . Here choose the RDP client, download the remote desktop file
+
+19. Then click get password
+
+20. Browse your key pair and upload it
+
+21. Then click on decrypt password
+
+22. Then copy-paste your password in notepad
+
+23. Then you open the download file
+
+24. Then click connect
+
+25. Enter the password then click ok
+
+ 26.  Click yes
+
+27. wait for a few minutes to start the remote application it will take some time
+
+28. Remote desktop  server is successfully created and opened
+
+29. Then terminate the remote server 
+
+30. Terminate the instances
+

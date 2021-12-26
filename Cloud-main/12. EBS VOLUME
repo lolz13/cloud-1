@@ -1,0 +1,36 @@
+ 
+ 
+ Login into the AWS console.
+Click on launch instances, then click next for further steps like tags, storage, configure, etc.
+Create a new key pair and click on launch instance.
+download the key-pair of the instance and launch the instance.
+Select ‘Volumes’ from the menu on the left and click create volume.
+Create volume - choose the availability zone correctly for the instance running
+After created, right-click and attach the volume to the currently running instances.
+To open putty in ubuntu:
+In Ubuntu:
+Ctrl +alt+t  
+sudo apt install putty-tools
+
+cd Downloads
+sudo puttygen key.pem -o key.ppk -O private
+sudo puttygen key.pem -o key.ppk -O public
+sudo  chmod   777 key.ppk
+
+Putty
+Then open the putty and enter the IP address of created instances.
+In the left menu click SSH, choose Auth, browse the saved file and click open.
+Then a terminal is opened  ec2-user enter this command.
+
+Commands in putty:
+df -h ( to check disk space)
+lsblk (to list out all the block devices)
+sudo file -s   /dev/xvdf - volume has any data
+It shows output “/dev/xvdf: data”, which means your volume is empty.
+sudo mkfs -t xfs   /dev/xvdf
+Sudo mkdir  /newvolume  -  create a directory
+Sudo mount   /dev/xvdf   /newvolume/   - mount the newvolume
+cd /newvolume
+df -h
+
+ 

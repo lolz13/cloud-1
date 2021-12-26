@@ -1,0 +1,12 @@
+Select the VPC on your services page
+Click on launch VPC wizard
+ Click on create VPC. 
+Enter the VPC name as private VPC, IPV4 CIDR block as 192.168.0.0/16
+Then VPC will be successfully created
+For the new VPC, edit the DNS hostname. Right-click on the VPC choose DNS hostname.
+Click on enable the host and save it
+Now create a new subnet.
+Enable auto-assign IPV and auto-assign IPV6 while creating a subnet.
+Now create a private Subnet
+Create a new internet gateway in VPC
+Attach the new gateway to the VPC.

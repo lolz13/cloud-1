@@ -1,0 +1,44 @@
+1. First login into the AWS console. Click on AWS console
+
+2. Form this page  choose the EC2 services you will navigate to the instances page
+
+3. here click on launch Instances and create a new instance
+
+4. Select the Amazon Linux 2 AMI
+
+5. Leave as it is on this page
+
+6. You no  need to change any settings leave as it is
+
+7. Leave storage as it is
+
+8. You can add tags keep key as name and value as EC2-11
+ 
+9. You can change the security group name and description then click on review and launch
+
+10. then click on the launch button
+
+11. Create a new key pair  and click on launch instances
+
+12. Then the instance is launched successfully
+
+13. Let wait for a few minutes to start the instances
+
+14.  Then go to the elastic IPS in the left menu
+
+15. Here click on allocate an IP address. 
+
+16. Leave as it is and click allocate. The elastic IP address was allocated successfully. 
+
+17. Then go to instance it’s staring is running
+
+18. Click the elastic IP and go to  actions and associate an IP address to allocate the IP address for the instances
+
+19. Click on instances it shows the instances and set the private IP address and click on associate
+
+20. IP address has been associated successfully
+
+21. then you go to the instances to check the IP address has been changed. 
+
+22. you terminate the instances.
+

@@ -1,0 +1,15 @@
+In services choose VPC
+Click on create VPC
+Enter VPC name
+Enter IPV4 CIDR Block
+In IPV6 choose Amazon provided IPV6
+Then click create VPC
+Then choose subnets in the left menu
+Create subnet, select VPC that you have created then click create a subnet
+Go to the route table in the left menu
+Create route table, enter the name and select VPC then create a routing table
+Go to the internet gateway, enter your name and click create
+Create a new instance with the newly created VPC as network and public VPC as its subnet.
+Launch the instances
+Create another instance with newly created VPC as network and private VPC as it is a subnet
+Now launch the instances.

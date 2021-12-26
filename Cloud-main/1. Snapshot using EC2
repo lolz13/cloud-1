@@ -1,0 +1,17 @@
+1. Login into the AWS console
+2. Choose the EC2 instances
+3. Choose an Amazon machine image as Amazon Linux 2 AMI( 1st in the list) 
+4. Leave as it is and go to the next steps
+5. In add tags, add the key-value names click on configure settings
+6.  Change the security group name and description to the value name that you have entered before the step. Change source to MyIP and description. Then click on Review and launch. 
+7. then click on launch instances
+8. Create the new key pair and download the pem file
+ Then click launch instances
+9. Then the instances started running
+10. Click on the running instances and right-click, in that choose image and templates, in this choose to create image option in that. 
+11. Enter any image name and description then click on create an image. 
+12. Then go to AMI in images in the left menu, the created image is loading
+13. Go to the instances and choose launch instances, that choose MyAMIs in the left menu, here it shows the image that you have created. 
+14. Select that image and proceed for further steps until launch instances. 
+15. I have backup the instances that I have created.
+

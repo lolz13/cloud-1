@@ -1,0 +1,34 @@
+Click S3 in the services
+Click on create a bucket
+Click your preferred AWS s3 bucket name
+Uncheck block all public access.
+Check-in turning off block all public
+Enable the bucket versioning
+Then click on create a bucket
+Click on the bucket name
+In the objects, tab click on the upload
+In upload click on add files or add a folder for your HTML file.
+Click on upload
+Navigate to properties at the end there is static web page hosting, enable that.
+Index document name should be the same as the file we uploaded (file name.html)
+In error, document enter it has error.html
+Click save changes
+Click on permission, choose bucket policy, click edit
+Edit this code in that, in resources enter the arn value available above( in last add /* at the end)
+{
+"Version": "2012-10-17",
+"Statement": [
+{
+"Sid": "PublicReadGetObject",
+"Principal": "*",
+"Effect": "Allow",
+"Action": “s3:GetObject”,
+"Resource": “arn:aws:s3:::vivni//*”
+}
+]
+}
+
+Then click save changes
+Go to properties, at last, there is a link open that.
+The static web page is hosted.
+
